@@ -8,16 +8,27 @@
     <link rel="stylesheet" href="style.css">    
 </head>
 <body>
-    <!-- hero section -->
-    <div class="hero_section">
-        <div class="hero_wrapper">
+    <!-- header -->
+    <header>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#about_me">About Me</a></li>
+                <li><a href="#work_examples">Work Examples</a></li>
+                <li><a href="#contact_me">Contact Me</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contact</button></a>
+    </header>
+    <!-- intro section -->
+    <div class="intro_section">
+        <div class="intro_wrapper">
             <div class="column_left">
                 <span>01 - Christopher Vega </span>
                 <h1>Web Developer</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nulla inventore, dolorum maxime maiores facere blanditiis rerum numquam, quaerat repellat, ex sed? Dolore nobis distinctio nam ipsum qui ratione esse.</p>
             </div>
             <div class="column_right">
-               <img src="images/circle_PNG62.png" alt="circle" class="hero_img" /> 
+               <img src="images/circle_PNG62.png" alt="circle" class="intro_img" /> 
             </div>
         </div>
     </div>
@@ -27,7 +38,7 @@
             <h1>Hello, I'm Chris</h1>
             <div class="main_content">
                 <div class="main_text">
-                    <h2>About me</h2>
+                    <h2 id="about_me">About me</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum tenetur iste cumque libero totam voluptates, veritatis error, quia nam commodi officiis odit, inventore fuga odio debitis perferendis sit praesentium?</p>
                 </div>
                 <div class="main_img">
@@ -39,17 +50,44 @@
     <!-- Work section -->
     <div class="work">
         <div class="work_container">
-            <h1>Work Examples</h1>
+            <h1 id="work_examples">Work Examples</h1>
             <div class="work_grid">
                 <div class="work_left">
                    <div class="work_content">
-                    <img src="./images/clipart2919026.png" alt="programming clip art">
+                    <a href="https://github.com/punkvega/Challenge-1" target="_blank" >
+                        <img src="./images/horiseon.jpg" alt="horiseon" id="horiseon">
+                    </a>
                     <div class="work_desc">
-                        <h2>TBA</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos odio ducimus voluptatem magnam esse dolor magni, dolore rerum saepe sunt eius aperiam. Expedita molestiae ipsam magnam placeat, corrupti excepturi nemo.</p>
+                        
                     </div>
-                   </div> 
+                      <div>  
+                        <img src="./images/Coming-Soon-Light.png" alt="coming soon" class="coming_soon">
+                        <img src="./images/Coming-Soon-Light.png" alt="coming soon" class="coming_soon">
+                    </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div class="contact">
+       <div class="contact_bar">
+        <img src="./images/email-png-icon-free-download-732604.png" alt="email icon"/>
+        <p>Email</p>
+        <span>vega.d.christopher@gmail.com</span>
+       </div> 
+       <h1 id="contact_me">Contact</h1>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer_container">
+            <div class="foot_left">
+                <h2>Christoper Vega</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, eaque sequi? Quia, repudiandae facilis laboriosam a tenetur fugiat sit magni, fuga pariatur voluptas, autem hic explicabo eligendi numquam nulla illo?</p>
+            </div>
+            <div class="footer_right">
+                <a href="#about_me">About</a>
+                <a href="#work_examples">Work</a>
+                <a href="#contact_me">Contact</a>
             </div>
         </div>
     </div>
